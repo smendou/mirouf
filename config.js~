@@ -23,7 +23,7 @@ exports.smtp = {
     user: process.env.SMTP_USERNAME || 'tmshorel@gmail.com',
     password: process.env.SMTP_PASSWORD || 'Adpath94',
     host: process.env.SMTP_HOST || 'smtp.gmail.com',
-    tls: true
+    ssl: true
   }
 };
 exports.oauth = {
