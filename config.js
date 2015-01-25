@@ -21,7 +21,7 @@ exports.smtp = {
   },
   credentials: {
     user: process.env.SMTP_USERNAME || 'tmshorel@gmail.com',
-    password: process.env.SMTP_PASSWORD || 'Adpath94',
+    password: process.env.SMTP_PASSWORD || 'adpath94',
     host: process.env.SMTP_HOST || 'smtp.gmail.com',
     tls: true
   }
